@@ -3,22 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css-lampada/estilo.css">
-    <title>Lâmpada</title>
+    <link rel="stylesheet" href="css.login/login.css">
+    <title>Calculadora-IMC</title>
 </head>
 <body>
-     <header>
-        <h1>VANILLA JS</h1>
-     </header>
-     <main>  
-        <div>
-    <img src="/img/desligada.jpg" alt="lampada" id="lamp">
-    </div>
-    <div>
-       <button id="turnOnOff">Ligar</button>
-    </div>
-</main>
-        
-    <script src="/css-lampada/js-lampada/javascript.js"></script>
+    <header>
+    </header>
+
+    <section>
+        <main>
+        <div class="container">
+            <div class="title">Calculadora-IMC</div>
+
+            <div class="input">
+                <label>Nome:</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div class="input">
+                <label for="">Altura:</label>
+                 <input type="number" id="altura">
+            </div>
+
+            <div class="input">
+                <label for="">Peso:</label>
+                <input type="number" id="peso">
+            </div>
+            <button id="Calcular">Calcular</button>
+
+            <div class="result" id="resultado"></div>
+        </div>
+            
+
+        </div>
+     </main>
+    </section>
+
+    <footer>
+
+    </footer>
+    
+    <script src="/imc.script/imc.js"></script>
 </body>
 </html>
